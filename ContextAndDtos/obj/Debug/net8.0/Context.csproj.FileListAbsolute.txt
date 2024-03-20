@@ -1,0 +1,15 @@
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\bin\Debug\net8.0\Context.deps.json
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\bin\Debug\net8.0\Context.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\bin\Debug\net8.0\Context.pdb
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\bin\Debug\net8.0\Infra.Data.Domain.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\bin\Debug\net8.0\Infra.Data.Domain.pdb
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.csproj.AssemblyReference.cache
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.AssemblyInfoInputs.cache
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.AssemblyInfo.cs
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.csproj.CoreCompileInputs.cache
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.csproj.CopyComplete
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\refint\Context.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.pdb
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\ref\Context.dll

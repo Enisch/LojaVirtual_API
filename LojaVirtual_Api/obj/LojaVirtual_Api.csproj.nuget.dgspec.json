@@ -1,0 +1,417 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\LojaVirtual_Api\\LojaVirtual_Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\ContextAndDtos\\Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\ContextAndDtos\\Context.csproj",
+        "projectName": "Context",
+        "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\ContextAndDtos\\Context.csproj",
+        "packagesPath": "C:\\Users\\55119\\.nuget\\packages\\",
+        "outputPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\ContextAndDtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\55119\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Domain\\Infra.Data.Domain.csproj": {
+                "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Domain\\Infra.Data.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Domain\\Infra.Data.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Domain\\Infra.Data.Domain.csproj",
+        "projectName": "Infra.Data.Domain",
+        "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Domain\\Infra.Data.Domain.csproj",
+        "packagesPath": "C:\\Users\\55119\\.nuget\\packages\\",
+        "outputPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\55119\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Ioc\\Infra.Data.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Ioc\\Infra.Data.Ioc.csproj",
+        "projectName": "Infra.Data.Ioc",
+        "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Ioc\\Infra.Data.Ioc.csproj",
+        "packagesPath": "C:\\Users\\55119\\.nuget\\packages\\",
+        "outputPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\55119\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\ContextAndDtos\\Context.csproj": {
+                "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\ContextAndDtos\\Context.csproj"
+              },
+              "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Domain\\Infra.Data.Domain.csproj": {
+                "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Domain\\Infra.Data.Domain.csproj"
+              },
+              "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\UsuarioApplication\\UsuarioApplication.csproj": {
+                "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\UsuarioApplication\\UsuarioApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\LojaVirtual_Api\\LojaVirtual_Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\LojaVirtual_Api\\LojaVirtual_Api.csproj",
+        "projectName": "LojaVirtual_Api",
+        "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\LojaVirtual_Api\\LojaVirtual_Api.csproj",
+        "packagesPath": "C:\\Users\\55119\\.nuget\\packages\\",
+        "outputPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\LojaVirtual_Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\55119\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Ioc\\Infra.Data.Ioc.csproj": {
+                "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Ioc\\Infra.Data.Ioc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\UsuarioApplication\\UsuarioApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\UsuarioApplication\\UsuarioApplication.csproj",
+        "projectName": "UsuarioApplication",
+        "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\UsuarioApplication\\UsuarioApplication.csproj",
+        "packagesPath": "C:\\Users\\55119\\.nuget\\packages\\",
+        "outputPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\UsuarioApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\55119\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\ContextAndDtos\\Context.csproj": {
+                "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\ContextAndDtos\\Context.csproj"
+              },
+              "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Domain\\Infra.Data.Domain.csproj": {
+                "projectPath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\Infra.Data.Domain\\Infra.Data.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

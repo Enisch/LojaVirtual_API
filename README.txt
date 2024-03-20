@@ -1,4 +1,3 @@
-README.md
 
 # Loja virtual/API
 

@@ -1,0 +1,12 @@
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\bin\Debug\net8.0\Infra.Data.Domain.deps.json
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\bin\Debug\net8.0\Infra.Data.Domain.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\bin\Debug\net8.0\Infra.Data.Domain.pdb
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\Infra.Data.Domain.csproj.AssemblyReference.cache
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\Infra.Data.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\Infra.Data.Domain.AssemblyInfoInputs.cache
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\Infra.Data.Domain.AssemblyInfo.cs
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\Infra.Data.Domain.csproj.CoreCompileInputs.cache
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\Infra.Data.Domain.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\refint\Infra.Data.Domain.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\Infra.Data.Domain.pdb
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\ref\Infra.Data.Domain.dll

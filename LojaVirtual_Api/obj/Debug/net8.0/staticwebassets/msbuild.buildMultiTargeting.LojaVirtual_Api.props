@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LojaVirtual_Api.props" />
+</Project>
