@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v37m77V5QWvz3AV8vjm+pTr5loJtCGECgnxf/YdYzzP3DvPxeUrMS9MZWB9MmTX48Fa7qhXOmNG5S6e9MYTEUg==",
+  "dgSpecHash": "inhx9IPl1GXJCA1uFCeT4+S9F5qABxBEx8FxjwJuTgfsRkRFHl4coFtMk9Itz1+3veLrRCarXErGlHWSUlj13A==",
   "success": true,
   "projectFilePath": "D:\\Programas Visual Studio\\API's\\ApiLojaVirtual\\UsuarioApplication\\UsuarioApplication.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,7 @@
     "C:\\Users\\55119\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\55119\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\55119\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
-    "C:\\Users\\55119\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.1\\pomelo.entityframeworkcore.mysql.8.0.1.nupkg.sha512",
+    "C:\\Users\\55119\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.2\\pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
     "C:\\Users\\55119\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\55119\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\55119\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",

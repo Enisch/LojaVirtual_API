@@ -13,3 +13,6 @@ D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\
 D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\refint\Context.dll
 D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.pdb
 D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\ref\Context.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.sourcelink.json
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\bin\Debug\net8.0\Context.runtimeconfig.json
+D:\Programas Visual Studio\API's\ApiLojaVirtual\ContextAndDtos\obj\Debug\net8.0\Context.genruntimeconfig.cache

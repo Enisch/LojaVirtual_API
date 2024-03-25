@@ -46,14 +46,9 @@ namespace UsuarioApplication.Repositories
             return User!;
         }
 
-        public Task SignIn()//Login
-        {
-            return Task.CompletedTask;
-        }
-
         public async Task<Usuario> SignUp(Usuario usuario)
         {
-            
+            usuario.IsAdmin = false;
             await cc.AddAsync(usuario);
             await cc.SaveChangesAsync();
 

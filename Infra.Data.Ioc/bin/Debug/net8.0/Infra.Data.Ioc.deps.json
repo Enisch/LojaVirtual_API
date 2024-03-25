@@ -14,7 +14,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.3",
           "Microsoft.EntityFrameworkCore.Design": "8.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.3",
-          "Pomelo.EntityFrameworkCore.MySql": "8.0.1",
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
           "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0",
@@ -489,15 +489,15 @@
           }
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/8.0.1": {
+      "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "8.0.3",
           "MySqlConnector": "2.3.5"
         },
         "runtime": {
           "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.dll": {
-            "assemblyVersion": "8.0.1.0",
-            "fileVersion": "8.0.1.0"
+            "assemblyVersion": "8.0.2.0",
+            "fileVersion": "8.0.2.0"
           }
         }
       },
@@ -639,7 +639,9 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Infra.Data.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "8.0.3"
+          "Microsoft.EntityFrameworkCore": "8.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.3",
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {
           "Context.dll": {}
@@ -658,7 +660,7 @@
           "Context": "1.0.0",
           "Infra.Data.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.3",
-          "Pomelo.EntityFrameworkCore.MySql": "8.0.1"
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "runtime": {
           "UsuarioApplication.dll": {}
@@ -910,12 +912,12 @@
       "path": "mysqlconnector/2.3.5",
       "hashPath": "mysqlconnector.2.3.5.nupkg.sha512"
     },
-    "Pomelo.EntityFrameworkCore.MySql/8.0.1": {
+    "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-szwVNxovhjdIlX1zx0tkEwVrR2hGRFqNVm77bqU8ZPdUNIk2NoxaHY5skZyPnrtUb+5Kp6+NhbUraQ7oOmyOpA==",
-      "path": "pomelo.entityframeworkcore.mysql/8.0.1",
-      "hashPath": "pomelo.entityframeworkcore.mysql.8.0.1.nupkg.sha512"
+      "sha512": "sha512-XjnlcxVBLnEMbyEc5cZzgZeDyLvAniACZQ04W1slWN0f4rmfNzl98gEMvHnFH0fMDF06z9MmgGi/Sr7hJ+BVnw==",
+      "path": "pomelo.entityframeworkcore.mysql/8.0.2",
+      "hashPath": "pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/6.5.0": {
       "type": "package",

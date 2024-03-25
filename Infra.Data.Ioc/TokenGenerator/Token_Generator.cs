@@ -29,6 +29,7 @@ namespace Infra.Data.Ioc.TokenGenerator
                     new Claim("id", usuario.idUsuario.ToString()),
                     new Claim("nomeUsuario", usuario.NomeUsuario!),
                     new Claim("EmailUsuario", usuario.EmailUsuario!),
+                    new Claim("IsAdmin",usuario.IsAdmin.ToString()),
                     new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString())
 
                 }),

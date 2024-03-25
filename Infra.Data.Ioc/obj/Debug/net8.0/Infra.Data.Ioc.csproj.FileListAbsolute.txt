@@ -19,3 +19,4 @@ D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Ioc\obj\Debug\net8.0\
 D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Ioc\obj\Debug\net8.0\Infra.Data.Ioc.pdb
 D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Ioc\obj\Debug\net8.0\Infra.Data.Ioc.genruntimeconfig.cache
 D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Ioc\obj\Debug\net8.0\ref\Infra.Data.Ioc.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Ioc\obj\Debug\net8.0\Infra.Data.Ioc.sourcelink.json

@@ -11,7 +11,6 @@ namespace Infra.Data.Domain.Interfaces
     public interface IUsuario
     {
         public Task<Usuario> SignUp(Usuario usuario);
-        public Task SignIn();
         public Task<bool> ConfirmUser(string Email, string Senha,Usuario usuario);
         public Task<Usuario> GetUserDtoByEMAIL(string Email);
 

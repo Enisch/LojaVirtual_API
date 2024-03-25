@@ -27,5 +27,8 @@ namespace Infra.Data.Domain.Models
         [Required(ErrorMessage ="Digite uma senha.")]
         public byte[]? Senha { get; set; }
 
+        [Column("IsAdmin")]
+        public bool IsAdmin { get; set; }   
+
     }
 }

@@ -10,3 +10,4 @@ D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8
 D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\refint\Infra.Data.Domain.dll
 D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\Infra.Data.Domain.pdb
 D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\ref\Infra.Data.Domain.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\Infra.Data.Domain\obj\Debug\net8.0\Infra.Data.Domain.sourcelink.json

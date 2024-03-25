@@ -1,18 +1,22 @@
 ﻿using Context.ContextForDb;
 using Infra.Data.Domain.Interfaces;
 using Infra.Data.Domain.Models;
+using Infra.Data.Domain.Pagination;
+using Infra.Data.Domain.Views;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UsuarioApplication.Helper;
 
 namespace UsuarioApplication.Repositories
 {
     public class ProdutosRepository : IProdutos
     {
         private readonly ContextClass cc;
+
         public ProdutosRepository(ContextClass cc)
         {
             this.cc = cc;
@@ -60,10 +64,18 @@ namespace UsuarioApplication.Repositories
 
 
 
-        //Get PRoducts methods
-        public async Task<List<Produtos>> GetProdutos()
+        //Get Products methods
+
+        public async Task<List<Produtos>> GetProdutosSemPagination()
         {
-            return await cc.Produtos.OrderByDescending(x=> x.Name).ToListAsync();
+            var Produtos = await cc.Produtos.OrderBy(x => x.Name).ToListAsync();
+            return Produtos;
+        }
+
+        public async Task<PagedList<Produtos>> GetProdutos(int pageSize,int pageNumber)//Com paginação(Teste) para obter melhor performance
+        {
+            var query = cc.Produtos.OrderBy(x => x.Name).AsQueryable();
+            return await PaginationHelper.CreateList<Produtos>(query, pageSize, pageNumber);
         }
 
         public async Task<List<Produtos>> GetProdutos(string nome)
@@ -81,10 +93,29 @@ namespace UsuarioApplication.Repositories
 
         
 
-        public async Task<List<Produtos>> GetProdutosByCategoria(Categoria_produtos categoria)//I 'll pass it to the controller later;
-        {
-            var ProductByCategoria = await cc.Produtos.Where(x => x.CategoriaDoProduto == categoria.IdCategoria).ToListAsync();
-            return ProductByCategoria;
+        public async Task<List<Produtos>> GetProdutosByCategoria()
+        {// Retorna os produtos pela categoria e ordem alfabetica
+            var ProductByCategoria = await cc.Produtos.OrderBy(x => x.CategoriaDoProduto).ThenBy(x=> x.Name).ToListAsync();
+            return ProductByCategoria!;
         }
+
+        public async Task<bool> CadastrarProdutos(Produtos produtos)
+        {
+            if(produtos != null)
+            {
+                await cc.AddAsync(produtos);
+                await cc.SaveChangesAsync();
+                return true;
+            }
+            return false;
+        }
+
+        public async Task<List<ProdutosComCategoria_View>> GetByCategoriesUSing_VIEW()
+        {
+            var Products = await cc.ProdutosCategoria_View.OrderBy(x=> x.NomeCategoria).ThenBy(x=> x.NomeProduto).ToListAsync();
+
+            return Products;
+        }
+
     }
 }

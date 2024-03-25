@@ -17,3 +17,4 @@ D:\Programas Visual Studio\API's\ApiLojaVirtual\UsuarioApplication\obj\Debug\net
 D:\Programas Visual Studio\API's\ApiLojaVirtual\UsuarioApplication\obj\Debug\net8.0\UsuarioApplication.pdb
 D:\Programas Visual Studio\API's\ApiLojaVirtual\UsuarioApplication\obj\Debug\net8.0\UsuarioApplication.genruntimeconfig.cache
 D:\Programas Visual Studio\API's\ApiLojaVirtual\UsuarioApplication\obj\Debug\net8.0\ref\UsuarioApplication.dll
+D:\Programas Visual Studio\API's\ApiLojaVirtual\UsuarioApplication\obj\Debug\net8.0\UsuarioApplication.sourcelink.json

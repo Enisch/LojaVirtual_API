@@ -733,10 +733,10 @@
           }
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/8.0.1": {
+      "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "[8.0.1, 8.0.999]",
+          "Microsoft.EntityFrameworkCore.Relational": "[8.0.2, 8.0.999]",
           "MySqlConnector": "2.3.5"
         },
         "compile": {
@@ -1091,7 +1091,9 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Infra.Data.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "8.0.3"
+          "Microsoft.EntityFrameworkCore": "8.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.3",
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "compile": {
           "bin/placeholder/Context.dll": {}
@@ -1120,7 +1122,7 @@
           "Context": "1.0.0",
           "Infra.Data.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.3",
-          "Pomelo.EntityFrameworkCore.MySql": "8.0.1"
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
         },
         "compile": {
           "bin/placeholder/UsuarioApplication.dll": {}
@@ -2298,10 +2300,10 @@
         "mysqlconnector.nuspec"
       ]
     },
-    "Pomelo.EntityFrameworkCore.MySql/8.0.1": {
-      "sha512": "szwVNxovhjdIlX1zx0tkEwVrR2hGRFqNVm77bqU8ZPdUNIk2NoxaHY5skZyPnrtUb+5Kp6+NhbUraQ7oOmyOpA==",
+    "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
+      "sha512": "XjnlcxVBLnEMbyEc5cZzgZeDyLvAniACZQ04W1slWN0f4rmfNzl98gEMvHnFH0fMDF06z9MmgGi/Sr7hJ+BVnw==",
       "type": "package",
-      "path": "pomelo.entityframeworkcore.mysql/8.0.1",
+      "path": "pomelo.entityframeworkcore.mysql/8.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2309,7 +2311,7 @@
         "icon.png",
         "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.dll",
         "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.xml",
-        "pomelo.entityframeworkcore.mysql.8.0.1.nupkg.sha512",
+        "pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
@@ -2861,7 +2863,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
-      "Pomelo.EntityFrameworkCore.MySql >= 8.0.1",
+      "Pomelo.EntityFrameworkCore.MySql >= 8.0.2",
       "Swashbuckle.AspNetCore.Swagger >= 6.5.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.5.0",
       "Swashbuckle.AspNetCore.SwaggerUI >= 6.5.0",
@@ -2944,7 +2946,7 @@
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
-            "version": "[8.0.1, )"
+            "version": "[8.0.2, )"
           },
           "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",

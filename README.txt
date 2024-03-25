@@ -16,7 +16,7 @@ Sugestão da criação de uma api através de um tópico na internet sobre, Cons
 - Foi utilizado o banco de dados MYSQl WorkBench 8.0 CE
 
 	#### Pacotes Nuggets:
-	-Entity.FrameworkCore/ Entity.FrameworkCore.Desing/ Entity.FrameworkCore.Tools(Todos na versão 8.0.3)
+	-Entity.FrameworkCore/ Entity.FrameworkCore.Desing/ Entity.FrameworkCore.Tools / Entity.FrameworkCore.Relational(Todos na versão 8.0.3)
 	-Pomelo.EntityFrameWorkCore.MySql.(Versão 8.0.1)
 	-AspNetCore.Authentication.JwtBearer.(Versão 8.0.3)	
 	-Swashbuckle.AspNetCore.Swagger/ Swashbuckle.AspNetCore.SwaggerGen/ Swashbuckle.AspNetCore.SwaggerUI.(Todos na versão 6.5.0)
@@ -25,10 +25,14 @@ Sugestão da criação de uma api através de um tópico na internet sobre, Cons
 
 ## 📌 Versão do projeto:
 
-###versão 1, inclui: 
+###versão 2, inclui todas as implementações anteriores: 
 	Quase todas as implementações propostas para o projeto BackEnd foram concluidas.
 	Login de usuario.
 	Checagem e compra de produtos.
 	Registro de usuario.
 	Token JWt implementado e funcionando com o Swagger.
 	Injeções de independência.
+
+Novos recursos:
+	-Busca melhoradas, implementação de paginação(Recurso muito útil na hora de realizar buscas, não causa sobrecargas na aplicação).
+	-Bem como utilização e criação de VIEW usando Migrations.
